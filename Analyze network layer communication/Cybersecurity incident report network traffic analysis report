@@ -1,0 +1,32 @@
+Cybersecurity Incident Report: 
+Network Traffic Analysis
+
+Part 1: Provide a summary of the problem found in the DNS and ICMP 
+traffic log.
+
+
+The UDP protocol reveals that:it is a transport layer internet protocol.
+
+This is based on the results of the network analysis, which show that the ICMP echo reply returned the error message: “UDP port 53 unreachable”.
+
+The port noted in the error message is used for: getting the DNS of the domain.
+
+The most likely issue is: it be possible that malicious attack occur at a web server .
+
+
+
+
+
+Part 2: Explain your analysis of the data and provide at least one cause of the incident.
+Time incident occurred: at Noon 1:24 pm
+
+Explain how the IT team became aware of the incident: Several customers reported the error on our website.
+
+Explain the actions taken by the IT department to investigate the incident: immediately a packet analyzer tool was deployed and then checked the condition on site where we came to know that port 53 is unreachable.
+
+Note key findings of the IT department's investigation (i.e., details related to the port affected, DNS server, etc.): The affected port was port 53 and is used for DNS servers.
+
+Note a likely cause of the incident: he might be someone who does not want us to grow and reach to our customer.
+
+
+
