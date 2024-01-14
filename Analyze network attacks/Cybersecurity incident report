@@ -1,0 +1,28 @@
+Cybersecurity Incident Report
+
+Section 1: Identify the type of attack that may have caused this 
+network interruption
+One potential explanation for the website's connection timeout error message is overload in web server may be the reason of error in site
+
+The logs show that so many TCP SYN requests are getting from unfamiliar IP addresses.
+
+This event could be done to down the server of our company.
+
+
+
+
+
+Section 2: Explain how the attack is causing the website to malfunction
+When website visitors try to establish a connection with the web server, a three-way handshake occurs using the TCP protocol. Explain the three steps of the handshake:
+Firstly, the client establishes the connection with the server. By sending SYN packets.
+
+Then server responds to those packets by sending SYN-ACK packets 
+
+Then the client sends the ACK packets to the server to establish the stable connection in continuity.
+
+Explain what happens when a malicious actor sends a large number of SYN packets all at once: The server gets overwhelmed and acts abnormally and unable to respond.
+
+Explain what the logs indicate and how that affects the server: log indicates that the packet received are from unfamiliar IP addresses and the server could not take that much amount of request at a time. 
+
+
+
