@@ -1,0 +1,32 @@
+Security incident report
+
+Section 1: Identify the network protocol involved in the incident
+TheHypertext Transfer protocol (HTTP)  protocol involved in the incident.
+Then running tcpdum in yummyrecepiesforme.com to capture the problem and came to know that, when one enters the website it insists to download a malware file across the application layer in the http protocol and redirect to a new website.
+
+
+
+Section 2: Document the incident
+The problem is detecting when there are continued emails in the helpdesk of our company about our website. That there is some issue on site, it asks for downloading the file and it results to slow down their pc. As the website owner tries to open the admin panel to detect what the exact issue is they came to know that their admin password was changed.
+
+Cyber analyst  takes immediate action on it, he launches the site on the sandbox the virtual environment and gets to know that the malware is getting installed and then the site is redirected to some other url (greatrecipesforme.com) which is similar to the main website.
+
+Cyber analyst captures the tcpdump log file and observes that the browser initially requests for the ip of the original site (yummyrecepiesforams.com) as connection established using http protocol . It insists the user to download a file and execute it, after executing the file the system gets slower and suddenly log gets changes the the browser request for new ip of greaterecepies.com and opens a new site identical to original site.
+
+Then a senior cyber security analyst checked the code and downloaded the file and found, invader manipulated the code and changed it to download a malware file as a browser update. As  admin is not able to login to the admin panel it is sure that there is a brute force attack in the server and get the password, because password is not changed it is as default.
+
+
+Section 3: Recommend one remediation for brute force attacks
+Cyber analyst recommended to have 2FA in their login process use of OTP sent to either their email or phone.Once the user
+confirms their identity through their login credentials and the OTP, they will
+gain access to the system. Any malicious actor that attempts a brute force
+attack will not likely gain access to the system because it requires additional
+authorization.
+
+
+
+
+
+
+
+
